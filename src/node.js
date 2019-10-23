@@ -35,12 +35,12 @@ class Node {
 		}
 	}
 
-	show(){
+	/*show(){
 		return ("data: " + this.data + "\npriority: " + this.priority + "\nparentData: " + ((this.parent) ? "yes" : "nope"));
-	}
+	}*/
 
 	swapWithParent() {
-		console.log("\nThis\n" + this.show() + "\nParent\n" + this.parent.show());
+		//console.log("\nThis\n" + this.show() + "\nParent\n" + this.parent.show());
 		if (this.parent) {
 			let parent = this.parent;
 			let parentNodes = [this.parent.left, this.parent.right];

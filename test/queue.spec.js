@@ -6,7 +6,7 @@ describe('PriorityQueue', () => {
 		it('assings passed maxSize or set it to default value 30', () => {
 			const q = new Queue(10);
 			const qWithDefaultMaxSize = new Queue();
-
+			
 			expect(q.maxSize).to.equal(10);
 			expect(qWithDefaultMaxSize.maxSize).to.equal(30);
 		});
